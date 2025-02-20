@@ -1,0 +1,7 @@
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+c=int(input("enter a number:"))
+if (a+b>c) and (b+c>a) and (a+c>b):
+    print("valid traingle")
+else:
+    print("not valid")
